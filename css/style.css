@@ -51,7 +51,7 @@ li{
 .infolist:hover{
     background-color: #333;
     color: white;
-    webkit-transition: width 2s; /* Safari */
+    -webkit-transition: width 2s; /* Safari */
     transition: background-color 0.5s, color 0.5s;
 }
 
@@ -70,19 +70,19 @@ li{
 
 .fa-linkedin:hover{
     color: #0077B5;
-    webkit-transition: width 2s; /* Safari */
+    -webkit-transition: width 2s; /* Safari */
     transition: color 0.3s;
 }
 
 .fa-twitter:hover{
     color: #00aced;
-    webkit-transition: width 2s; /* Safari */
+    -webkit-transition: width 2s; /* Safari */
     transition: color 0.3s;
 }
 
 .fa-github:hover{
     color: #333;
-    webkit-transition: width 2s; /* Safari */
+    -webkit-transition: width 2s; /* Safari */
     transition: color 0.3s;
 }
 
