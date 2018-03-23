@@ -59,6 +59,7 @@ li{
     text-align: center;
 }
 
+
 .info p{
     margin: 0;
     position: absolute;
@@ -68,6 +69,67 @@ li{
     transform: translate(0, -50%);
     text-align: left !important;
 }
+
+@media screen and (max-width: 600px){
+    .info p{
+        margin: 0;
+        position: absolute;
+        font-size: calc(2vw + 0.6vh + 0.1vmin);
+        top: 50%;
+        width: 100%;
+        transform: translate(0, -50%);
+        text-align: left !important;
+    }   
+}
+
+@media screen and (min-width: 600px){
+    .info p{
+        margin: 0;
+        position: absolute;
+        font-size: calc(1vw + 0.6vh + 0.1vmin);
+        top: 50%;
+        width: 100%;
+        transform: translate(0, -50%);
+        text-align: left !important;
+    }   
+}
+
+@media screen and (min-width: 992px){
+    .info p{
+        margin: 0;
+        position: absolute;
+        font-size: calc(0.6vw + 0.6vh + 0.1vmin);
+        top: 50%;
+        width: 100%;
+        transform: translate(0, -50%);
+        text-align: left !important;
+    }   
+}
+
+@media screen and (min-width: 1200px){
+    .info p{
+        margin: 0;
+        position: absolute;
+        font-size: calc(0.5vw + 0.6vh + 0.1vmin);
+        top: 50%;
+        width: 100%;
+        transform: translate(0, -50%);
+        text-align: left !important;
+    }   
+}
+
+@media screen and (min-width: 1400px){
+    .info p{
+        margin: 0;
+        position: absolute;
+        font-size: calc(0.1vw + 0.6vh + 0.1vmin);
+        top: 50%;
+        width: 100%;
+        transform: translate(0, -50%);
+        text-align: left !important;
+    }   
+}
+
 
 .svg-inline--fa{
     width: 100% !important;
