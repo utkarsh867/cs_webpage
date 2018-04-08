@@ -1,3 +1,6 @@
+@viewport{
+    width: device-width;
+}
 body{
     background-color: rgb(222, 222, 222) !important;
 }
@@ -118,11 +121,11 @@ li{
     }   
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1500px){
     .info p{
         margin: 0;
         position: absolute;
-        font-size: calc(0.1vw + 0.6vh + 0.1vmin);
+        font-size: calc(0.6vw + 0.6vh + 0.1vmin);
         top: 50%;
         width: 100%;
         transform: translate(0, -50%);
